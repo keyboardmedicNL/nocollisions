@@ -1,9 +1,7 @@
-local sim = ac.getSim()
-local car = ac.getCar(0)
-
 function script.update(dt)
-collision = physics.disableCarCollisions(0);
+  if true then return end
+
+  physics.disableCarCollisions(0, true)
 end
 
-script.update(dt)
 
