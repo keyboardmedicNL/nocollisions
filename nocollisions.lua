@@ -1,1 +1,2 @@
-physics.disableCarCollisions(0)
+physics.disableCarCollisions(0, true)
+print("testtest")
