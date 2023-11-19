@@ -1,7 +1,5 @@
 local test = "test"
-function update()
+function script.update(dt)
   physics.disableCarCollisions(0, true)
 end
-
-update()
 
