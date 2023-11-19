@@ -1,3 +1,7 @@
 local test = "test"
-physics.disableCarCollisions(0, true)
+function update()
+  physics.disableCarCollisions(0, true)
+end
+
+update()
 
