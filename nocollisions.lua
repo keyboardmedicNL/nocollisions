@@ -1,1 +1,1 @@
-physics.disableCarCollisions(0, true)
+physics.disableCarCollisions(0, `true`)
