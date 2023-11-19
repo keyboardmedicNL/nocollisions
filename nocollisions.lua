@@ -1,5 +1,6 @@
-local test = "test"
-function script.update(dt)
-  physics.disableCarCollisions(0, true)
-end
+local sim = ac.getSim()
+local car = ac.getCar(0)
+
+
+physics.disableCarCollisions(car)
 
